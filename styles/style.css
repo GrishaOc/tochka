@@ -1,0 +1,112 @@
+.page {
+    max-width: 1920px;
+}
+
+.header {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 34px;
+    margin: 0 auto;
+}
+
+.header__logo {}
+
+.header__logo_img {}
+
+.header__address {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    background: linear-gradient(143deg, #F57350 0%, #F4512D 100%);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+}
+
+.header__address_link {}
+
+.header__address-img {
+    padding: 20px;
+}
+
+/* main */
+.main {
+    max-width: 1560px;
+    width: 100%;
+    float: right;
+    position: relative;
+    padding-top: 33px;
+    display: grid;
+    grid-template-columns: 0.8fr 1fr;
+}
+
+.main__text {
+    position: relative;
+    display: flex;
+    gap: 35px;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    min-width: 100px;
+    max-width: 514px;
+}
+
+.main__text_title {
+    color: black;
+    font-size: 56px;
+    font-family: Lora;
+    font-weight: 700;
+    line-height: 45px;
+    word-wrap: break-word
+}
+
+.main__text_description {
+    color: black;
+    font-size: 18px;
+    font-family: 'PT Mono';
+    font-weight: 400;
+    line-height: 23.40px;
+    word-wrap: break-word
+}
+
+.main__photo {
+    position: relative;
+}
+
+.main__photo-img1 {
+    width: 536px;
+    position: absolute;
+    right: 0;
+}
+
+.main__photo-img2 {
+    position: absolute;
+    width: 510px;
+    top: 200px;
+}
+
+.main__photo-img3 {
+    position: absolute;
+    left: -150px;
+    width: 615px;
+}
+
+.main__text_button {
+    /* сброс стилей */
+    padding: 0;
+    border: 2px solid black;
+    padding: 14px 20px;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.main__text_button-text {
+    color: black;
+    font-size: 14px;
+    font-family: 'Lora';
+    font-weight: 700;
+    line-height: 20px;
+    word-wrap: break-word
+}
